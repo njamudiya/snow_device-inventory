@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 11:22:13</sys_created_on>
+        <sys_id>367b325397ab4110e7a935dfe153af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_180190_device_in_users.x_180190_device_in.users_user</sys_name>
+        <sys_package display_value="Device Inventory" source="x_180190_device_in">7ddca58797670110e7a935dfe153af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</sys_scope>
+        <sys_security_acl display_value="x_180190_device_in_users">3e7b325397ab4110e7a935dfe153af83</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_367b325397ab4110e7a935dfe153af86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 11:22:13</sys_updated_on>
+        <sys_user_role display_value="x_180190_device_in.users_user" name="x_180190_device_in.users_user">327b3e1f976b4110e7a935dfe153afbd</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</application>
+        <file_path/>
+        <instance_id>a1a3df86dbe7c59c8aea21c405961906</instance_id>
+        <instance_name>dev128302</instance_name>
+        <name>sys_security_acl_role_367b325397ab4110e7a935dfe153af86</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-24 11:22:13</sys_created_on><sys_id>367b325397ab4110e7a935dfe153af86</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_180190_device_in_users.x_180190_device_in.users_user</sys_name><sys_package display_value="Device Inventory" source="x_180190_device_in">7ddca58797670110e7a935dfe153af21</sys_package><sys_policy/><sys_scope display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</sys_scope><sys_security_acl display_value="x_180190_device_in_users">3e7b325397ab4110e7a935dfe153af83</sys_security_acl><sys_update_name>sys_security_acl_role_367b325397ab4110e7a935dfe153af86</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-24 11:22:13</sys_updated_on><sys_user_role display_value="x_180190_device_in.users_user" name="x_180190_device_in.users_user">327b3e1f976b4110e7a935dfe153afbd</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>86879972</payload_hash>
+        <record_name>x_180190_device_in_users.x_180190_device_in.users_user</record_name>
+        <reverted_from/>
+        <source>bb4a3e1f976b4110e7a935dfe153af59</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 11:22:13</sys_created_on>
+        <sys_id>b67b325397ab4110e7a935dfe153af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180f5cd97360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 11:22:13</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>fe7b32535dab4110fb12cdd6c417d387</update_guid>
+        <update_guid_history>fe7b32535dab4110fb12cdd6c417d387:86879972</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_180190_device_in_users.x_180190_device_in.users_user">f4d68f1f97ab4110e7a935dfe153afee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 12:11:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>521d4d318e6c4408811195eea388c040</sys_id>
+        <sys_metadata>367b325397ab4110e7a935dfe153af86</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_180190_device_in_users.x_180190_device_in.users_user</sys_name>
+        <sys_package display_value="Device Inventory" source="x_180190_device_in">7ddca58797670110e7a935dfe153af21</sys_package>
+        <sys_parent display_value="">3e7b325397ab4110e7a935dfe153af83</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</sys_scope>
+        <sys_scope_delete display_value="">61bea2681865446e8611babe2a3ec651</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_367b325397ab4110e7a935dfe153af86</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_367b325397ab4110e7a935dfe153af86">b67b325397ab4110e7a935dfe153af88</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 12:11:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Device Information" max_length="40" name="x_180190_device_in_device_information" sizeclass="0" type="collection">
+    <element audit="true" label="Device Information" max_length="40" name="x_180190_device_in_device_information" sizeclass="0" type="collection">
         <element label="Device Name" max_length="40" name="device_name" type="string"/>
+        <element choice="3" label="Device Owner" max_length="40" name="device_owner" type="string">
+            <choice/>
+        </element>
+        <element choice="3" label="Maintenance Window" max_length="40" name="maintenance_window" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MW-Daily-0200-0600" value="MW-Daily-0200-0600"/>
+                <element inactive_on_update="false" label="MW-Daily-0600-1000" value="MW-Daily-0600-1000"/>
+                <element inactive_on_update="false" label="MW-Daily-1000-1400" value="MW-Daily-1000-1400"/>
+                <element inactive_on_update="false" label="MW-Daily-1400-1800" value="MW-Daily-1400-1800"/>
+                <element inactive_on_update="false" label="MW-Daily-1800-2200" value="MW-Daily-1800-2200"/>
+                <element inactive_on_update="false" label="MW-Daily-2200-0200" value="MW-Daily-2200-0200"/>
+            </choice>
+        </element>
         <element choice="3" label="Operating  System" max_length="40" name="operating_system" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Android" value="android"/>
@@ -10,7 +23,9 @@
             </choice>
         </element>
         <element choice="1" label="OS Version" max_length="40" name="os_version" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
         </element>
     </element>
 </database>

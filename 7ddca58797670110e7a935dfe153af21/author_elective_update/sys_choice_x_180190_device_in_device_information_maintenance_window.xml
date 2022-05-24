@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="maintenance_window" table="x_180190_device_in_device_information" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>maintenance_window</element>
+            <name>x_180190_device_in_device_information</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:33:51</sys_created_on>
+            <sys_id>d52efed397ab4110e7a935dfe153afc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>maintenance_window</sys_name>
+            <sys_package display_value="Device Inventory" source="x_180190_device_in">7ddca58797670110e7a935dfe153af21</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</sys_scope>
+            <sys_update_name>sys_choice_x_180190_device_in_device_information_maintenance_window</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 11:33:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>maintenance_window</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MW-Daily-0200-0600</label>
+            <language>en</language>
+            <name>x_180190_device_in_device_information</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:33:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e11ebed397ab4110e7a935dfe153afe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 11:33:51</sys_updated_on>
+            <value>MW-Daily-0200-0600</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>maintenance_window</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MW-Daily-0600-1000</label>
+            <language>en</language>
+            <name>x_180190_device_in_device_information</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c94ebed397ab4110e7a935dfe153afe9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 11:34:52</sys_updated_on>
+            <value>MW-Daily-0600-1000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>maintenance_window</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MW-Daily-1000-1400</label>
+            <language>en</language>
+            <name>x_180190_device_in_device_information</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:35:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e55ebed397ab4110e7a935dfe153af17</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 11:35:19</sys_updated_on>
+            <value>MW-Daily-1000-1400</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>maintenance_window</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MW-Daily-1400-1800</label>
+            <language>en</language>
+            <name>x_180190_device_in_device_information</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>157ef21797ab4110e7a935dfe153afca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 11:35:44</sys_updated_on>
+            <value>MW-Daily-1400-1800</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>maintenance_window</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MW-Daily-1800-2200</label>
+            <language>en</language>
+            <name>x_180190_device_in_device_information</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:36:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>549ebed397ab4110e7a935dfe153af18</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 11:36:10</sys_updated_on>
+            <value>MW-Daily-1800-2200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>maintenance_window</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MW-Daily-2200-0200</label>
+            <language>en</language>
+            <name>x_180190_device_in_device_information</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:36:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>daae3a1797ab4110e7a935dfe153af97</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 11:36:32</sys_updated_on>
+            <value>MW-Daily-2200-0200</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

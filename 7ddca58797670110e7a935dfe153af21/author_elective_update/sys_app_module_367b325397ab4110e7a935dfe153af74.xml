@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Users">fe7b325397ab4110e7a935dfe153af70</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Users</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_180190_device_in_users</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_180190_device_in.users_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 11:22:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>367b325397ab4110e7a935dfe153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Device Inventory" source="x_180190_device_in">7ddca58797670110e7a935dfe153af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</sys_scope>
+        <sys_update_name>sys_app_module_367b325397ab4110e7a935dfe153af74</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 11:22:12</sys_updated_on>
+        <timeline_page/>
+        <title>Users</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</application>
+        <file_path/>
+        <instance_id>a1a3df86dbe7c59c8aea21c405961906</instance_id>
+        <instance_name>dev128302</instance_name>
+        <name>sys_app_module_367b325397ab4110e7a935dfe153af74</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Users">fe7b325397ab4110e7a935dfe153af70</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Users</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_180190_device_in_users</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_180190_device_in.users_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-24 11:22:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>367b325397ab4110e7a935dfe153af74</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Users</sys_name><sys_overrides/><sys_package display_value="Device Inventory" source="x_180190_device_in">7ddca58797670110e7a935dfe153af21</sys_package><sys_policy/><sys_scope display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</sys_scope><sys_update_name>sys_app_module_367b325397ab4110e7a935dfe153af74</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-24 11:22:12</sys_updated_on><timeline_page/><title>Users</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-959571617</payload_hash>
+        <record_name>Users</record_name>
+        <reverted_from/>
+        <source>bb4a3e1f976b4110e7a935dfe153af59</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 11:22:12</sys_created_on>
+        <sys_id>b27b325397ab4110e7a935dfe153af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180f5cd96460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 11:22:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>fa7b325332ab4110bc0441be4ee41276</update_guid>
+        <update_guid_history>fa7b325332ab4110bc0441be4ee41276:-959571617</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Users">49d6cf1f97ab4110e7a935dfe153af5d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 12:11:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>bb7c060098a24eec89bedebeed887269</sys_id>
+        <sys_metadata>367b325397ab4110e7a935dfe153af74</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Users</sys_name>
+        <sys_package display_value="Device Inventory" source="x_180190_device_in">7ddca58797670110e7a935dfe153af21</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</sys_scope>
+        <sys_scope_delete display_value="">61bea2681865446e8611babe2a3ec651</sys_scope_delete>
+        <sys_update_name>sys_app_module_367b325397ab4110e7a935dfe153af74</sys_update_name>
+        <sys_update_version display_value="sys_app_module_367b325397ab4110e7a935dfe153af74">b27b325397ab4110e7a935dfe153af77</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 12:11:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
