@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="operating_system" table="x_180190_device_in_device_information" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>operating_system</element>
+            <name>x_180190_device_in_device_information</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 07:18:46</sys_created_on>
+            <sys_id>38c34e1b97a74110e7a935dfe153af9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>operating_system</sys_name>
+            <sys_package display_value="Device Inventory" source="x_180190_device_in">7ddca58797670110e7a935dfe153af21</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</sys_scope>
+            <sys_update_name>sys_choice_x_180190_device_in_device_information_operating_system</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 07:18:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Android</label>
+            <language>en</language>
+            <name>x_180190_device_in_device_information</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 07:19:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ef382d397e34110e7a935dfe153afb3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 07:20:08</sys_updated_on>
+            <value>android</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Linux</label>
+            <language>en</language>
+            <name>x_180190_device_in_device_information</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 07:19:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43e34ed797a74110e7a935dfe153af3c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 07:19:50</sys_updated_on>
+            <value>linux</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_180190_device_in_device_information</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 07:21:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6604ca5b97a74110e7a935dfe153af3a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 07:21:07</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows</label>
+            <language>en</language>
+            <name>x_180190_device_in_device_information</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 07:18:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28b3825b97a74110e7a935dfe153af15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 07:18:46</sys_updated_on>
+            <value>windows</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

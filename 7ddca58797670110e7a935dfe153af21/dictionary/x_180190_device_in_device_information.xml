@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Device Information" max_length="40" name="x_180190_device_in_device_information" sizeclass="0" type="collection">
+        <element label="Device Name" max_length="40" name="device_name" type="string"/>
+        <element choice="3" label="Operating  System" max_length="40" name="operating_system" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Android" value="android"/>
+                <element inactive_on_update="false" label="Linux" value="linux"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+                <element inactive_on_update="false" label="Windows" value="windows"/>
+            </choice>
+        </element>
+        <element choice="1" label="OS Version" max_length="40" name="os_version" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
