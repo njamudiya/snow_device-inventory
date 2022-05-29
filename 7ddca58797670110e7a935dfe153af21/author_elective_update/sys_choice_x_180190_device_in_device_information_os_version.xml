@@ -16,25 +16,5 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-05-24 11:29:33</sys_updated_on>
         </sys_choice_set>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>os_version</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>-- New choice --</label>
-            <language>en</language>
-            <name>x_180190_device_in_device_information</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-05-24 11:29:33</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5e2d729397ab4110e7a935dfe153af3a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-05-24 11:29:33</sys_updated_on>
-            <value>-- New choice --</value>
-        </sys_choice>
     </sys_choice>
 </record_update>

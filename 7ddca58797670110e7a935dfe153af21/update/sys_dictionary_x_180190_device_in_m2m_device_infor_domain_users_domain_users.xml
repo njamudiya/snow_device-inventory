@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="full_name" table="x_180190_device_in_domain_users">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="domain_users" table="x_180190_device_in_m2m_device_infor_domain_users">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>encode_utf8=false</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	var Fname = alert(g_form.getValue('first_name'))+" "+alert(g_form.getValue('last_name'));
-	return Fname;  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Full Name</column_label>
+        <column_label>Domain Users</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,25 +17,25 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>full_name</element>
+        <element>domain_users</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>80</max_length>
-        <name>x_180190_device_in_domain_users</name>
+        <max_length>32</max_length>
+        <name>x_180190_device_in_m2m_device_infor_domain_users</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_180190_device_in_domain_users">x_180190_device_in_domain_users</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,23 +47,23 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-05-24 12:17:55</sys_created_on>
-        <sys_id>f0970f5f97ab4110e7a935dfe153afca</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Full Name</sys_name>
+        <sys_created_on>2022-05-24 13:26:17</sys_created_on>
+        <sys_id>dce7d3df97eb4110e7a935dfe153afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Users</sys_name>
         <sys_package display_value="Device Inventory" source="x_180190_device_in">7ddca58797670110e7a935dfe153af21</sys_package>
         <sys_policy/>
         <sys_scope display_value="Device Inventory">7ddca58797670110e7a935dfe153af21</sys_scope>
-        <sys_update_name>sys_dictionary_x_180190_device_in_domain_users_full_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_180190_device_in_m2m_device_infor_domain_users_domain_users</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-24 13:52:39</sys_updated_on>
+        <sys_updated_on>2022-05-24 13:26:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>true</virtual>
+        <virtual>false</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

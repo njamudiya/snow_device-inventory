@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Device In M2m Device Infor Domain Users" max_length="40" name="x_180190_device_in_m2m_device_infor_domain_users" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="Device Information" max_length="32" name="device_information" reference="x_180190_device_in_device_information" type="reference"/>
+        <element attributes="encode_utf8=false" label="Domain Users" max_length="32" name="domain_users" reference="x_180190_device_in_domain_users" type="reference"/>
+        <index name="index">
+            <element name="domain_users"/>
+        </index>
+        <index name="index2">
+            <element name="device_information"/>
+        </index>
+    </element>
+</database>
